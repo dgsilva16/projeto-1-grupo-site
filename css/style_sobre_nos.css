@@ -1,0 +1,128 @@
+/* Fonte e background de todo o html  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Ajustes body  */
+body {
+    background-color: #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/* Ajustes menu  */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    height: 80px;
+}
+
+
+/* Ajustes logo  */
+.logo img {
+    width: 50px;
+}
+
+
+/* Ajustes menu itens  */
+.menu-items a img {
+    width: 40px;
+}
+
+.menu-items a {
+    margin-left: 5px;
+}
+
+
+/* Ajustes content  */
+.content {
+    height: calc(100vh-80px);
+    width: 100%;
+    color: white;
+    padding: 0 5%;
+    display: flex;
+}
+.container2{
+    display: flex;
+
+}
+
+#imagem10{
+    float: left;
+    border: 4px solid white;
+    margin: 2%;
+}
+
+/* Ajustes left side  */
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 600px;
+}
+
+.left-side h1 {
+    font-size: 40px;
+    color: rgb(209, 204, 204);
+
+}
+
+.left-side p {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.left-side span {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.left-side a {
+    text-decoration: none;
+    color: white;
+    background-color: #00c0af;
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+
+/* Ajustes p  */
+p {
+    color: white;
+    font-family: montserrat;
+    font-size: 25px;
+}
+
+
+/* Ajustes h1  */
+h1 {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    Text-align: center;
+    border-radius: 15px;
+    ;
+}
+
+
+/* Ajustes h2  */
+h2 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    height: 20%;
+}
+
+/* Ajustes rodapé  */
+.rodape {
+    color: white;
+    text-align: center;
+}

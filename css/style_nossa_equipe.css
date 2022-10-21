@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Ajustes body  */
+body{
+    background-color: #000000;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Ajustes menu  */
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    height: 80px;
+}
+
+/* Ajustes logo  */
+.logo img{
+    width: 50px;
+}
+
+/* Ajustes menu  */
+.menu-items a img{
+width: 40px;
+}
+
+/* Ajustes menu  */
+.menu-items a{
+    margin-left: 5px;
+}
+
+/* Ajustes content  */
+.content{
+    height: calc(100vh-80px);
+    width: 100%;
+    color: white;
+    padding: 0 5%;
+    display: flex;
+}
+
+/* Ajustes left-side  */
+.left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 600px;
+}
+
+.left-side h1{
+    font-size: 40px;
+    color: rgb(209, 204, 204);
+
+}
+
+/* Ajustes tema  */
+.tema{
+    color: white;
+    display: flex;
+    justify-content: center; 
+}
+
+/* Ajustes nossa  */
+.nossa{
+    max-width: 100px;
+    display: block;
+    margin-left: 50px;
+}
+
+/* Ajustes equipe  */
+.equipe{
+    display: flex;
+    flex-direction: row;
+    max-width: 1400px; 
+    margin: 0 auto;
+    padding: 80px;  
+}
+
+
+.equipe > div{
+    flex: 1 1 100px; 
+    align-items: center;
+    margin: 20px;
+}
+
+.equipe p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px; 
+}
+
+/* Ajustes left-side  */
+.left-side p{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.left-side span{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.left-side a{
+    text-decoration: none;
+    color: white;
+    background-color: #00c0af;
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+
+/* Ajustes rodapé  */
+.rodape
+{
+    color: white;
+    text-align: center;
+}

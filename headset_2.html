@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style_produtos.css" rel="stylesheet">
+    <script src="./js/code_index.js"></script>
+    <title>HEADSET GAMER TOTH VERMELHO - TechNight</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body onload="checar_quantidade_carrinho()">
+    <header>
+        <!-- BARRA DE NAVEGAÇÃO -->
+        <div class="menu">
+            <div class="logo">
+                <!-- ICONE -->
+                <a href="./index.html">
+                    <img src="./img/logo_pequeno.png">
+                </a>
+            </div>
+            <nav class="menu-items">
+                <!-- ICONE CARRINHO E PERFIL -->
+                <a><img id="carrinho" src="./img/carrinho.png"></a>
+                <a><img id="perfil" src="./img/perfil.png"></a>
+
+        </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="left-side">
+                <!-- INFORMACOES SOBRE O PRODUTO -->
+                <h1>HEADSET GAMER</h1>
+                <h1>TOTH VERMELHO</h1>
+                <h1>EVOLUT</h1>
+                <p>Recomendado para quem quer um par de fones de ouvido acessíveis, o Toth Evolut é capaz de fornecer
+                    som
+                    de qualidade, seja em jogos, aplicativos multimídia ou bate-papo.
+                </p>
+                <span>R$ 29,00</span>
+                <div class="botao_1" style="cursor:pointer"
+                    onclick="adicionar_ao_carrinho(`Adicionado ao carrinho: HEADSET GAMER!`)">ADICIONAR AO CARRINHO
+                </div>
+                <div class="botao_2" style="cursor:pointer"
+                    onclick="remover_do_carrinho(`Removido do carrinho: HEADSET GAMER!`)">&nbsp;&nbsp;REMOVER DO
+                    CARRINHO&nbsp;</div>
+                <div class="botao_3" style="cursor:pointer"
+                    onclick="limpar_o_carrinho(`Todos os produtos foram removidos!`)">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIMPAR O CARRINHO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            </div>
+
+            <div class="right-side">
+
+                <img src="./img/headset_2.png">
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- RODAPE" -->
+        <div class="rodape">
+            <br></br>
+            TechNight todos os direitos reservados.
+            <br></br><br></br>
+        </div>
+    </footer>
+
+</body>
+
+</html>

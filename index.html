@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style_index.css" rel="stylesheet">
+    <script src="./js/code_index.js"></script>
+    <title>TechNight: Tudo para o mundo Gamer!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body onload="checar_quantidade_carrinho()">
+
+    <!-- BARRA DE NAVEGAÇÃO -->
+    <div class="barra_de_navegacao">
+        <!-- ICONE -->
+        <ui>
+            <li>
+                <section class="sessao">
+                    <a href="#categoria_0">
+                        <img src="./img/logo_pequeno.png" width="40px" height="40px">
+                    </a>
+                </section>
+            </li>
+            <!-- BOTOES DE CATEGORIAS -->
+            <li>
+                <section class="sessao">
+                    <a href="#categoria_1">PC GAMER</a>
+                </section>
+            </li>
+            <li>
+                <section class="sessao">
+                    <a href="#categoria_2">TECLADO</a>
+                </section>
+            </li>
+            <li>
+                <section class="sessao">
+                    <a href="#categoria_3">MOUSE e MOUSE PAD</a>
+                </section>
+            </li>
+            <li>
+                <section class="sessao">
+                    <a href="#categoria_4">HEADSET</a>
+                </section>
+            </li>
+            <li>
+                <section class="sessao">
+                    <a href="#categoria_5">WEBCAM</a>
+                </section>
+            </li>
+            <li>
+                <section class="sessao">
+                    <a href="#categoria_6">BASE PARA NOTEBOOK</a>
+                </section>
+            </li>
+            <li>
+                <section class="sessao">
+                    <a href="#categoria_7">CADEIRA GAMER</a>
+                </section>
+            </li>
+            <li>
+                <section class="sessao">
+                    <a href="./sobre_nos.html">|&nbsp;&nbsp;&nbsp;SOBRE NÓS</a>
+                </section>
+            </li>
+            <li>
+                <section class="sessao">
+                    <a href="./contato.html">CONTATO</a>
+                </section>
+            </li>
+            <li>
+                <section class="sessao">
+                    <a href="./nossa_equipe.html">NOSSA EQUIPE</a>
+                </section>
+            </li>
+
+            <!-- ICONE CARRINHO E PERFIL -->
+            <a>
+                <img id="carrinho" src="./img/carrinho.png" width="40px" height="40px">
+            </a>
+            <a>
+                <img id="perfil" src="./img/perfil.png" width="40px" height="40px">
+            </a>
+        </ui>
+    </div>
+
+    <br>
+    <div class=" nome">
+        <img src="./img/logo.branca.png" width="280">
+    </div><br>
+
+    <!-- CARROSEL COM PRODUTOS EM DESTAQUE -->
+    <section class="" id="categoria_0">
+        <br></br>
+        <div class="wraper">
+            <div class="scroller">
+                <!-- PRIMEIRO BLOCO EM DESTAQUE -->
+                <img src="./img/pc_1.png" alt="">
+                <img src="./img/pc_2.png" alt="">
+                <img src="./img/mouse_mouse_pad_1.png" alt="">
+                <!-- SEGUNDO BLOCO EM DESTAQUE -->
+                <img src="./img/headset_1.png" alt="">
+                <img src="./img/headset_2.png" alt="">
+                <img src="./img/webcam_1.png" alt="">
+                <!-- TERCEIRO BLOCO EM DESTAQUE -->
+                <img src="./img/base_para_notebook_2.png" alt="">
+                <img src="./img/cadeira_gamer_1.png" alt="">
+                <img src="./img/gabinete_2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- TODOS OS PRODUTOS DA CATEGORIA 1 (PC GAMER) -->
+    <section class="" id="categoria_1">
+        <br></br>
+        <p>
+            <font size="12" face="Verdana">
+                <b>
+                    <i>PC GAMER</b>
+                </i>
+            </font>
+        </p>
+        <br></br>
+        <br></br>
+        <!-- PRODUTO 1 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/pc_1.png">
+                </div>
+                <div class="left-side">
+                    <h1>PC GAMER HAWK 11ª GERAÇÃO SSD 480GB</h1>
+                    <h1>R$ 4.865,00</h1>
+                    <a href="./pc_1.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+        <!-- PRODUTO 2 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/pc_2.png">
+                </div>
+                <div class="left-side">
+                    <h1>PC GAMER LOOP AMD RYZEN 7 5700G RTX 3070 TUF GAMING</h1>
+                    <h1>R$ 5.289,00</h1>
+                    <a href="./pc_2.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- TODOS OS PRODUTOS DA CATEGORIA 2 (TECLADO) -->
+    <section class="" id="categoria_2">
+        <br></br>
+        <p>
+            <font size="12" face="Verdana">
+                <b>
+                    <i>TECLADO</b>
+                </i>
+            </font>
+        </p>
+        <br></br>
+        <br></br>
+        <!-- PRODUTO 1 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/teclado_1.png">
+                </div>
+                <div class="left-side">
+                    <h1>TECLADO GAMER T-DAGGER RGB SWITCH OUTEMU BLUE</h1>
+                    <h1>R$ 175,99</h1>
+                    <a href="./teclado_1.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+        <!-- PRODUTO 2 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/teclado_2.png">
+                </div>
+                <div class="left-side">
+                    <h1>TECLADO GAMER WARRIOR LED BASE METAL</h1>
+                    <h1>R$ 65,00</h1>
+                    <a href="./teclado_2.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- TODOS OS PRODUTOS DA CATEGORIA 3 (MOUSE / MOUSE PAD) -->
+    <section class="" id="categoria_3">
+        <br></br>
+        <p>
+            <font size="12" face="Verdana">
+                <b>
+                    <i>MOUSE / MOUSE PAD</b>
+                </i>
+            </font>
+        </p>
+        <br></br>
+        <br></br>
+        <!-- PRODUTO 1 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/mouse_mouse_pad_1.png">
+                </div>
+                <div class="left-side">
+                    <h1>COMBO GAMER REDRAGON M607-BA MOUSE E MOUSEPAD</h1>
+                    <h1>R$ 139,00</h1>
+                    <a href="./mouse_mouse_pad_1.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+        <!-- PRODUTO 2 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/mouse_mouse_pad_2.png">
+                </div>
+                <div class="left-side">
+                    <h1>COMBO GAMER REDRAGON MOUSE CENTROPHORUS MOUSEPAD GAMER</h1>
+                    <h1>R$ 129,00</h1>
+                    <a href="./mouse_mouse_pad_2.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- TODOS OS PRODUTOS DA CATEGORIA 4 (HEADSET) -->
+    <section class="" id="categoria_4">
+        <br></br>
+        <p>
+            <font size="12" face="Verdana">
+                <b>
+                    <i>HEADSET</b>
+                </i>
+            </font>
+        </p>
+        <br></br>
+        <br></br>
+        <!-- PRODUTO 1 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/headset_1.png">
+                </div>
+                <div class="left-side">
+                    <h1>HEADSET GAMER MANCER TWILIGHT RGB</h1>
+                    <h1>R$ 52,16</h1>
+                    <a href="./headset_1.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+        <!-- PRODUTO 2 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/headset_2.png">
+                </div>
+                <div class="left-side">
+                    <h1>HEADSET GAMER TOTH VERMELHO</h1>
+                    <h1>R$ 29,90</h1>
+                    <a href="./headset_2.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- TODOS OS PRODUTOS DA CATEGORIA 5 (WEBCAM) -->
+    <section class="" id="categoria_5">
+        <br></br>
+        <p>
+            <font size="12" face="Verdana">
+                <b>
+                    <i>WEBCAM</b>
+                </i>
+            </font>
+        </p>
+        <br></br>
+        <br></br>
+        <!-- PRODUTO 1 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/webcam_1.png">
+                </div>
+                <div class="left-side">
+                    <h1>WEBCAM HUSKY GAMING SNOW PRETO FULL HD 1080P</h1>
+                    <h1>R$ 139,99</h1>
+                    <a href="./webcam_1.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+        <!-- PRODUTO 2 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/webcam_2.png">
+                </div>
+                <div class="left-side">
+                    <h1>WEBCAM LOGITECH C270 PRETO FULL HD 720P</h1>
+                    <h1>R$ 149,99</h1>
+                    <a href="./webcam_2.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- TODOS OS PRODUTOS DA CATEGORIA 6 (BASE PARA NOTEBOOK) -->
+    <section class="" id="categoria_6">
+        <br></br>
+        <p>
+            <font size="12" face="Verdana">
+                <b>
+                    <i>BASE PARA NOTEBOOK</b>
+                </i>
+            </font>
+        </p>
+        <br></br>
+        <br></br>
+        <!-- PRODUTO 1 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/base_para_notebook_1.png">
+                </div>
+                <div class="left-side">
+                    <h1>BASE PARA NOTEBOOK MULTILASER COOLER AC166</h1>
+                    <h1>R$ 64,99</h1>
+                    <a href="./base_para_notebook_1.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+        <!-- PRODUTO 2 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/base_para_notebook_2.png">
+                </div>
+                <div class="left-side">
+                    <h1>BASE PARA NOTEBOOK MULTILASER COOLER AC382</h1>
+                    <h1>R$ 125,99</h1>
+                    <a href="./base_para_notebook_2.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- TODOS OS PRODUTOS DA CATEGORIA 7 (CADEIRA GAMER) -->
+    <section class="" id="categoria_7">
+        <br></br>
+        <p>
+            <font size="12" face="Verdana">
+                <b>
+                    <i>CADEIRA GAMER</b>
+                </i>
+            </font>
+        </p>
+        <br></br>
+        <br></br>
+        <!-- PRODUTO 1 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/cadeira_gamer_1.png">
+                </div>
+                <div class="left-side">
+                    <h1>CADEIRA GAMER MYMAX GIRATÓRIA PRETA</h1>
+                    <h1>R$ 764,15</h1>
+                    <a href="./cadeira_gamer_1.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+        <!-- PRODUTO 2 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/cadeira_gamer_2.png">
+                </div>
+                <div class="left-side">
+                    <h1>CADEIRA GAMER THUNDERX3 TGC12 RECLINÁVEL PRETO E VERMELHO</h1>
+                    <h1>R$ 1.299,99</h1>
+                    <a href="./cadeira_gamer_2.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <!-- TODOS OS PRODUTOS DA CATEGORIA 8 (GABINETE) -->
+    <section class="" id="categoria_8">
+        <br></br>
+        <p>
+            <font size="12" face="Verdana">
+                <b>
+                    <i>GABINETE</b>
+                </i>
+            </font>
+        </p>
+        <br></br>
+        <br></br>
+        <!-- PRODUTO 1 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/gabinete_1.png">
+                </div>
+                <div class="left-side">
+                    <h1>GABINETE WARRIOR LATERAL EM VIDRO</h1>
+                    <h1>R$ 229,99</h1>
+                    <a href="./gabinete_1.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+        <!-- PRODUTO 2 -->
+        <main>
+            <div class="content">
+                <div class="right-side">
+                    <img src="./img/gabinete_2.png">
+                </div>
+                <div class="left-side">
+                    <h1>GABINETE RISE MODE</h1>
+                    <h1>R$ 229,99</h1>
+                    <a href="./gabinete_2.html">DETALHES</a>
+                </div>
+            </div>
+        </main>
+
+        <!-- TODOS OS PRODUTOS DA CATEGORIA 9 (FITA DE LED) -->
+        <section class="" id="categoria_8">
+            <br></br>
+            <p>
+                <font size="12" face="Verdana">
+                    <b>
+                        <i>FITA DE LED</b>
+                    </i>
+                </font>
+            </p>
+            <br></br>
+            <br></br>
+            <!-- PRODUTO 1 -->
+            <main>
+                <div class="content">
+                    <div class="right-side">
+                        <img src="./img/fita_de_led_1.png">
+                    </div>
+                    <div class="left-side">
+                        <h1>FITA LED 5050 5 METROS</h1>
+                        <h1>R$ 59,98</h1>
+                        <a href="./fita_de_led_1.html">DETALHES</a>
+                    </div>
+                </div>
+            </main>
+            <!-- PRODUTO 2 -->
+            <main>
+                <div class="content">
+                    <div class="right-side">
+                        <img src="./img/fita_de_led_2.png">
+                    </div>
+                    <div class="left-side">
+                        <h1>FITA LED RGB 5 METROS</h1>
+                        <h1>R$ 109,91</h1>
+                        <a href="./fita_de_led_2.html">DETALHES</a>
+                    </div>
+                </div>
+            </main>
+
+            <!-- TODOS OS PRODUTOS DA CATEGORIA 10 (MICROFONE) -->
+            <section class="" id="categoria_10">
+                <br></br>
+                <p>
+                    <font size="12" face="Verdana">
+                        <b>
+                            <i>MICROFONE</b>
+                        </i>
+                    </font>
+                </p>
+                <br></br>
+                <br></br>
+                <!-- PRODUTO 1 -->
+                <main>
+                    <div class="content">
+                        <div class="right-side">
+                            <img src="./img/microfone_1.png">
+                        </div>
+                        <div class="left-side">
+                            <h1>MICROFONE HUSKY GAMING CONDENSADOR AVALANCHE</h1>
+                            <h1>R$ 689,90</h1>
+                            <a href="./microfone_1.html">DETALHES</a>
+                        </div>
+                    </div>
+                </main>
+                <!-- PRODUTO 2 -->
+                <main>
+                    <div class="content">
+                        <div class="right-side">
+                            <img src="./img/microfone_2.png">
+                        </div>
+                        <div class="left-side">
+                            <h1>MICROFONE HYPERX SOLOCAST PEDESTAL AJUSTÁVEL</h1>
+                            <h1>R$ 499,99</h1>
+                            <a href="./microfone_2.html">DETALHES</a>
+                        </div>
+                    </div>
+                </main>
+            </section>
+
+            <footer>
+                <!-- RODAPE" -->
+                <div class="rodape">
+                    <br></br>
+                    TechNight todos os direitos reservados.
+                    <br></br><br></br>
+                </div>
+            </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+/* Fonte e background de todo o html  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Ajustes body  */
+body {
+    background-color: #000000;
+}
+
+
+/* Ajustes menu  */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    height: 80px;
+}
+
+
+/* Ajustes logo  */
+.logo img {
+    width: 50px;
+}
+
+
+/* Ajustes menu itens  */
+.menu-items a img {
+    width: 40px;
+}
+
+.menu-items a {
+    margin-left: 5px;
+}
+
+
+/* Ajustes content  */
+.content {
+    height: calc(100vh-80px);
+    width: 100%;
+    color: white;
+    padding: 0 5%;
+    display: flex;
+}
+
+
+/* Ajustes left side  */
+.left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 600px;
+    width: 600px;
+}
+
+.left-side h1 {
+    font-size: 40px;
+    color: rgb(209, 204, 204);
+
+}
+
+.left-side p {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.left-side span {
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+}
+
+.left-side a {
+    text-decoration: none;
+    color: white;
+    background-color: #00c0af;
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+
+/* Ajustes rodapé  */
+.rodape {
+    color: white;
+    text-align: center;
+}
+
+/* ############################# NOVOS BOTÕES ADICIONADOS ############################# */
+
+/* Ajustes botões  */
+.botoes {
+    text-decoration: none;
+    flex-direction: column;
+    color: white;
+    background-color: #c00000;
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+
+.botao_1 {
+    text-decoration: none;
+    background-color: #3bad06;
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.botao_2 {
+    text-decoration: none;
+    background-color: #bdab0f;
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.botao_3 {
+    text-decoration: none;
+    background-color: #d32020;
+    width: fit-content;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+
+
+
+
