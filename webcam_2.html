@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style_produtos.css" rel="stylesheet">
+    <script src="./js/code_index.js"></script>
+    <title>WEBCAM LOGITECH C270 PRETO FULL HD 720p - TechNight</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body onload="checar_quantidade_carrinho()">
+    <header>
+        <!-- BARRA DE NAVEGAÇÃO -->
+        <div class="menu">
+            <div class="logo">
+                <!-- ICONE -->
+                <a href="./index.html">
+                    <img src="./img/logo_pequeno.png">
+                </a>
+            </div>
+            <nav class="menu-items">
+                <!-- ICONE CARRINHO E PERFIL -->
+                <a><img id="carrinho" src="./img/carrinho.png"></a>
+                <a><img id="perfil" src="./img/perfil.png"></a>
+
+        </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="left-side">
+                <!-- INFORMACOES SOBRE O PRODUTO -->
+                <h1>WEBCAM LOGITECH C270</h1>
+                <h1>PRETO</h1>
+                <h1>FULL HD 720p</h1>
+                <p>CA C270 HD Webcam permite fazer chamadas de vídeo widescreen em HD 720p com imagem nítida e clara.
+                    Como se ajusta automaticamente às condições de iluminação, você obterá imagens mais brilhantes,
+                    apesar da iluminação fraca. Seu microfone redutor de ruídos garante que suas conversas sejam claras
+                    mesmo em ambientes movimentados. Esta pequena, rápida e ajustável webcam traz um ângulo
+                    completamente novo às videochamadas, permitindo que você grave vídeos em alta definição e
+                    publique-os em suas redes sociais preferidas.</p>
+                <span>R$ 149,99</span>
+                <div class="botao_1" style="cursor:pointer"
+                    onclick="adicionar_ao_carrinho(`Adicionado ao carrinho: WEBCAM LOGITECH C270!`)">ADICIONAR AO CARRINHO
+                </div>
+                <div class="botao_2" style="cursor:pointer"
+                    onclick="remover_do_carrinho(`Removido do carrinho: WEBCAM LOGITECH C270!`)">&nbsp;&nbsp;REMOVER DO
+                    CARRINHO&nbsp;</div>
+                <div class="botao_3" style="cursor:pointer"
+                    onclick="limpar_o_carrinho(`Todos os produtos foram removidos!`)">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;LIMPAR O CARRINHO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+            </div>
+
+            <div class="right-side">
+
+                <img src="./img/webcam_2.png">
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- RODAPE" -->
+        <div class="rodape">
+            <br></br>
+            <br></br><br></br>
+            TechNight todos os direitos reservados.
+            <br></br><br></br>
+        </div>
+    </footer>
+
+</body>
+
+</html>
