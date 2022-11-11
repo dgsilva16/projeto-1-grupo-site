@@ -12,4 +12,5 @@ DOUGLAS DA SILVA ROCHA - PESSOA FACILITADORA
 
 
 slide de apresentação:
-(https://github.com/dgsilva16/projeto-1-grupo-site/files/9989923/SQUAD.2
+
+https://github.com/dgsilva16/projeto-1-grupo-site/files/9989930/SQUAD.2.pptx
